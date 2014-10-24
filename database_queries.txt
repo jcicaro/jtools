@@ -1,0 +1,32 @@
+CREATE DATABASE u106172525_jtool;
+
+IN THE TEST MACHINE
+Use jtool; 
+DESCRIBE jtool_rec;
+
+
+IN the PRODUCTION
+
+CREATE DATABASE u106172525_jtool;
+
+USE u106172525_jtool;
+
+CREATE TABLE jtool_rec (
+	id INT NOT NULL AUTO_INCREMENT,
+	session_name VARCHAR(200),
+	session_content TEXT,
+	PRIMARY KEY (id)
+);
+
+
+mklink /j C:\wamp\www\jTest F:\OneDrive\Documents\Sites\jTest
+
+mklink /j D:\Docs E:\Users\Kari\Documents
+mklink /j C:\wamp\www\jTOOLS F:\OneDrive\Documents\Sites\jTOOLS
+
+UPDATE jtool_rec SET session_content='New content' WHERE session_name='0149'
+
+database name and sql username
+u106172525_jtool
+Password:
+T***n1
